@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDFParser", "GDFParser\GDFParser.csproj", "{7FB26492-7167-4CB2-B6CC-EF649FF1A6C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0ADA06FD-A325-4BFB-B5ED-7ECC23476E59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDFParser.Tests", "GDFParser.Tests\GDFParser.Tests.csproj", "{BF573753-D53F-4024-9AA7-15A918C11D89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FB26492-7167-4CB2-B6CC-EF649FF1A6C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FB26492-7167-4CB2-B6CC-EF649FF1A6C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FB26492-7167-4CB2-B6CC-EF649FF1A6C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FB26492-7167-4CB2-B6CC-EF649FF1A6C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF573753-D53F-4024-9AA7-15A918C11D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF573753-D53F-4024-9AA7-15A918C11D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF573753-D53F-4024-9AA7-15A918C11D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF573753-D53F-4024-9AA7-15A918C11D89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF573753-D53F-4024-9AA7-15A918C11D89} = {0ADA06FD-A325-4BFB-B5ED-7ECC23476E59}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41D7E158-FB68-4A73-B44E-49388FA06558}
+	EndGlobalSection
+EndGlobal
